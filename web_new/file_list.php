@@ -30,7 +30,7 @@
         <h2><center> Welcome!</h1>
           <br><br><br><br><br><br>
         <h7><center><font color = "white" size = "3"><?php
-         if(isset($_SESSION['user_id']) || isset($_SESSION['user_pw'])){
+         if(isset($_SESSION['user_id'])){
         $user_nick = $_SESSION['user_id'];
         echo "<p><strong>'$user_nick'님 <br>환영합니다.</strong>";
          }
